@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" />
+    <title>RoomMatch - Smart Room Rental Platform</title>
+    <meta name="description" content="Find your perfect room and compatible roommates with our smart matching algorithm" />
+    <meta name="keywords" content="room rental, roommate matching, apartment finder, property rental, Nepal" />
+    <meta name="author" content="RoomMatch Team" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://roommatch.com/" />
+    <meta property="og:title" content="RoomMatch - Smart Room Rental Platform" />
+    <meta property="og:description" content="Find your perfect room and compatible roommates with our smart matching algorithm" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="RoomMatch - Smart Room Rental Platform" />
+    <meta property="twitter:description" content="Find your perfect room and compatible roommates with our smart matching algorithm" />
+    
+    <!-- Prevent scaling/zoom issues -->
+    <style>
+      /* Immediate scaling fix to prevent flash */
+      html, body {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+        -webkit-text-size-adjust: 100% !important;
+        -ms-text-size-adjust: 100% !important;
+        zoom: 1 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+      
+      #root {
+        width: 100% !important;
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+      }
+      
+      /* Prevent iOS Safari zoom on inputs */
+      input, select, textarea {
+        font-size: 16px !important;
+        -webkit-appearance: none !important;
+      }
+      
+      /* Prevent double-tap zoom */
+      * {
+        touch-action: manipulation !important;
+        -webkit-tap-highlight-color: transparent !important;
+        box-sizing: border-box !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
